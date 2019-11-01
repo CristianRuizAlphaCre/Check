@@ -99,6 +99,10 @@
 		B8E4E0F3236BCE7600450F7A /* check */ = {
 			isa = PBXGroup;
 			children = (
+				B8E4E127236BD5B600450F7A /* view */,
+				B8E4E126236BD5B000450F7A /* model */,
+				B8E4E125236BD5A700450F7A /* presenter */,
+				B8E4E124236BD59800450F7A /* service */,
 				B8E4E0F4236BCE7600450F7A /* AppDelegate.swift */,
 				B8E4E0F6236BCE7600450F7A /* SceneDelegate.swift */,
 				B8E4E0F8236BCE7600450F7A /* ViewController.swift */,
@@ -126,6 +130,34 @@
 				B8E4E118236BCE7700450F7A /* Info.plist */,
 			);
 			path = checkUITests;
+			sourceTree = "<group>";
+		};
+		B8E4E124236BD59800450F7A /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		B8E4E125236BD5A700450F7A /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8E4E126236BD5B000450F7A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B8E4E127236BD5B600450F7A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
