@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8D3E8CF237BA4D600F70DB7 /* ButtonCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D3E8CE237BA4D500F70DB7 /* ButtonCheck.png */; };
 		B8E4E0F5236BCE7600450F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F4236BCE7600450F7A /* AppDelegate.swift */; };
 		B8E4E0F7236BCE7600450F7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F6236BCE7600450F7A /* SceneDelegate.swift */; };
 		B8E4E0F9236BCE7600450F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F8236BCE7600450F7A /* ViewController.swift */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B89973B1237B86BD00262433 /* check.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = check.entitlements; sourceTree = "<group>"; };
+		B8D3E8CE237BA4D500F70DB7 /* ButtonCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonCheck.png; path = "../../../../../Downloads/CHECK - MATERIAL/ButtonCheck.png"; sourceTree = "<group>"; };
 		B8E4E0F1236BCE7600450F7A /* check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = check.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E4E0F4236BCE7600450F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8E4E0F6236BCE7600450F7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +114,7 @@
 		B8E4E0F3236BCE7600450F7A /* check */ = {
 			isa = PBXGroup;
 			children = (
+				B89973B1237B86BD00262433 /* check.entitlements */,
 				B8E4E12A236BE2D000450F7A /* utils */,
 				B8E4E127236BD5B600450F7A /* view */,
 				B8E4E126236BD5B000450F7A /* model */,
@@ -190,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				B8E4E12C236BE2FE00450F7A /* LogoCheck.png */,
+				B8D3E8CE237BA4D500F70DB7 /* ButtonCheck.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				B8E4E131236BE9A400450F7A /* CapturaInformacion.storyboard in Resources */,
 				B8E4E101236BCE7700450F7A /* LaunchScreen.storyboard in Resources */,
 				B8E4E0FE236BCE7700450F7A /* Assets.xcassets in Resources */,
+				B8D3E8CF237BA4D600F70DB7 /* ButtonCheck.png in Resources */,
 				B8E4E135236BE9DA00450F7A /* CapturaImagenes.storyboard in Resources */,
 				B8E4E133236BE9C200450F7A /* ConsultaSolicitudes.storyboard in Resources */,
 				B8E4E0FC236BCE7600450F7A /* Main.storyboard in Resources */,
@@ -506,6 +512,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = check/check.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QSB7BK94H5;
 				INFOPLIST_FILE = check/Info.plist;
@@ -516,6 +524,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alphacredit.check;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -525,6 +534,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = check/check.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QSB7BK94H5;
 				INFOPLIST_FILE = check/Info.plist;
@@ -535,6 +546,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alphacredit.check;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -546,7 +558,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QSB7BK94H5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = checkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -568,7 +580,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QSB7BK94H5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = checkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -589,7 +601,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QSB7BK94H5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = checkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -609,7 +621,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QSB7BK94H5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = checkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
