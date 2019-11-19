@@ -22,6 +22,7 @@
 		B8E4E131236BE9A400450F7A /* CapturaInformacion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E130236BE9A400450F7A /* CapturaInformacion.storyboard */; };
 		B8E4E133236BE9C200450F7A /* ConsultaSolicitudes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E132236BE9C200450F7A /* ConsultaSolicitudes.storyboard */; };
 		B8E4E135236BE9DA00450F7A /* CapturaImagenes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E134236BE9DA00450F7A /* CapturaImagenes.storyboard */; };
+		B8E51B6823839DA700AD5248 /* IconoUsuario.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E51B6723839DA700AD5248 /* IconoUsuario.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		B8E4E130236BE9A400450F7A /* CapturaInformacion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CapturaInformacion.storyboard; sourceTree = "<group>"; };
 		B8E4E132236BE9C200450F7A /* ConsultaSolicitudes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsultaSolicitudes.storyboard; sourceTree = "<group>"; };
 		B8E4E134236BE9DA00450F7A /* CapturaImagenes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CapturaImagenes.storyboard; sourceTree = "<group>"; };
+		B8E51B6723839DA700AD5248 /* IconoUsuario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconoUsuario.png; path = "../../../../../Downloads/CHECK - MATERIAL/IconoUsuario.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 		B8E4E12B236BE2E100450F7A /* image */ = {
 			isa = PBXGroup;
 			children = (
+				B8E51B6723839DA700AD5248 /* IconoUsuario.png */,
 				B8E4E12C236BE2FE00450F7A /* LogoCheck.png */,
 				B8D3E8CE237BA4D500F70DB7 /* ButtonCheck.png */,
 			);
@@ -311,6 +314,7 @@
 				B8E4E0FE236BCE7700450F7A /* Assets.xcassets in Resources */,
 				B8D3E8CF237BA4D600F70DB7 /* ButtonCheck.png in Resources */,
 				B8E4E135236BE9DA00450F7A /* CapturaImagenes.storyboard in Resources */,
+				B8E51B6823839DA700AD5248 /* IconoUsuario.png in Resources */,
 				B8E4E133236BE9C200450F7A /* ConsultaSolicitudes.storyboard in Resources */,
 				B8E4E0FC236BCE7600450F7A /* Main.storyboard in Resources */,
 			);
