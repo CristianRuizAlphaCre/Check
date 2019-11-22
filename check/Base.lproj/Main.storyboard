@@ -394,7 +394,6 @@
         <image name="LogoCheck" width="412" height="81"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hjw-fx-KOS"/>
         <segue reference="PCr-BE-4Bo"/>
     </inferredMetricsTieBreakers>
 </document>

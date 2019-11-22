@@ -32,6 +32,9 @@ class PersonaViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view.
 
         self.TxtPrimerNombre.delegate = self
+        self.TxtSegundoNombre.delegate = self
+        self.TxtPrimerApellido.delegate = self
+        self.TxtSegundoApellido.delegate = self
         
         let datePicker = UIDatePicker()
         datePicker.datePickerMode = UIDatePicker.Mode.date

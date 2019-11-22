@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view.
 
         self.TxtUsuario.delegate = self
+        self.TxtPass.delegate = self
     }
 
     // Funcion para esconder teclado cunado se toca la pantalla
