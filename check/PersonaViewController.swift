@@ -8,6 +8,8 @@
 
 import UIKit
 
+var DataMostar = ""
+
 class PersonaViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var TxtPrimerNombre: UITextField!
@@ -16,7 +18,14 @@ class PersonaViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var TxtSegundoApellido: UITextField!
     @IBOutlet weak var TxtNumeroIdentificacion: UITextField!
     @IBOutlet weak var TxtFechaNacimiento: UITextField!
-    @IBOutlet weak var TxtGenero: UITextField!
+    @IBOutlet weak var LblInformaGenero: UILabel!
+    @IBAction func SeleccionGenero(_ sender: UISwitch) {
+        if (sender.isOn == true) {
+            LblInformaGenero.text = "Masculino"
+        }else{
+            LblInformaGenero.text = "Femenino"
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -89,11 +98,8 @@ class PersonaViewController: UIViewController, UITextFieldDelegate {
         }else{
             showAlert(text: "Debe ingresar la fecha de nacimiento.")
         }
-        if (TxtGenero.text != ""){
-            Genero = TxtGenero.text!
-        }else{
-            showAlert(text: "Debe seleccionar un genero.")
-        }
+        Genero = LblInformaGenero.text!
+        DataMostar = NumeroIdentificacion + "    " + Primernombre + " " + PrimerApellido
         
         performSegue(withIdentifier: "registro", sender: self)
     }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B842902E23874EBB00641925 /* PersonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842902D23874EBB00641925 /* PersonaViewController.swift */; };
+		B842903223878F8800641925 /* DatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842903123878F8800641925 /* DatosViewController.swift */; };
 		B8E4E0F5236BCE7600450F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F4236BCE7600450F7A /* AppDelegate.swift */; };
 		B8E4E0F7236BCE7600450F7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F6236BCE7600450F7A /* SceneDelegate.swift */; };
 		B8E4E0F9236BCE7600450F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F8236BCE7600450F7A /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		B842902D23874EBB00641925 /* PersonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaViewController.swift; sourceTree = "<group>"; };
+		B842903123878F8800641925 /* DatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosViewController.swift; sourceTree = "<group>"; };
 		B89973B1237B86BD00262433 /* check.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = check.entitlements; sourceTree = "<group>"; };
 		B8E4E0F1236BCE7600450F7A /* check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = check.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E4E0F4236BCE7600450F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				B8E4E0F6236BCE7600450F7A /* SceneDelegate.swift */,
 				B8E4E0F8236BCE7600450F7A /* ViewController.swift */,
 				B842902D23874EBB00641925 /* PersonaViewController.swift */,
+				B842903123878F8800641925 /* DatosViewController.swift */,
 				B8E4E0FA236BCE7600450F7A /* Main.storyboard */,
 				B8E4E0FD236BCE7700450F7A /* Assets.xcassets */,
 				B8E4E0FF236BCE7700450F7A /* LaunchScreen.storyboard */,
@@ -335,6 +338,7 @@
 				B8E4E0F9236BCE7600450F7A /* ViewController.swift in Sources */,
 				B842902E23874EBB00641925 /* PersonaViewController.swift in Sources */,
 				B8E4E0F5236BCE7600450F7A /* AppDelegate.swift in Sources */,
+				B842903223878F8800641925 /* DatosViewController.swift in Sources */,
 				B8E4E0F7236BCE7600450F7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
