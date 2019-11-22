@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8D3E8CF237BA4D600F70DB7 /* ButtonCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D3E8CE237BA4D500F70DB7 /* ButtonCheck.png */; };
+		B842902E23874EBB00641925 /* PersonaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842902D23874EBB00641925 /* PersonaViewController.swift */; };
 		B8E4E0F5236BCE7600450F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F4236BCE7600450F7A /* AppDelegate.swift */; };
 		B8E4E0F7236BCE7600450F7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F6236BCE7600450F7A /* SceneDelegate.swift */; };
 		B8E4E0F9236BCE7600450F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E0F8236BCE7600450F7A /* ViewController.swift */; };
@@ -17,12 +17,10 @@
 		B8E4E10C236BCE7700450F7A /* checkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E10B236BCE7700450F7A /* checkTests.swift */; };
 		B8E4E117236BCE7700450F7A /* checkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4E116236BCE7700450F7A /* checkUITests.swift */; };
 		B8E4E129236BDAE500450F7A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E128236BDAE500450F7A /* Login.storyboard */; };
-		B8E4E12D236BE2FE00450F7A /* LogoCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E12C236BE2FE00450F7A /* LogoCheck.png */; };
 		B8E4E12F236BE96500450F7A /* Modul.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E12E236BE96500450F7A /* Modul.storyboard */; };
 		B8E4E131236BE9A400450F7A /* CapturaInformacion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E130236BE9A400450F7A /* CapturaInformacion.storyboard */; };
 		B8E4E133236BE9C200450F7A /* ConsultaSolicitudes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E132236BE9C200450F7A /* ConsultaSolicitudes.storyboard */; };
 		B8E4E135236BE9DA00450F7A /* CapturaImagenes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E4E134236BE9DA00450F7A /* CapturaImagenes.storyboard */; };
-		B8E51B6823839DA700AD5248 /* IconoUsuario.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E51B6723839DA700AD5248 /* IconoUsuario.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B842902D23874EBB00641925 /* PersonaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaViewController.swift; sourceTree = "<group>"; };
 		B89973B1237B86BD00262433 /* check.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = check.entitlements; sourceTree = "<group>"; };
-		B8D3E8CE237BA4D500F70DB7 /* ButtonCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonCheck.png; path = "../../../../../Downloads/CHECK - MATERIAL/ButtonCheck.png"; sourceTree = "<group>"; };
 		B8E4E0F1236BCE7600450F7A /* check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = check.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E4E0F4236BCE7600450F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8E4E0F6236BCE7600450F7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,12 +58,10 @@
 		B8E4E116236BCE7700450F7A /* checkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkUITests.swift; sourceTree = "<group>"; };
 		B8E4E118236BCE7700450F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8E4E128236BDAE500450F7A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		B8E4E12C236BE2FE00450F7A /* LogoCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogoCheck.png; path = "../../../../../Downloads/CHECK - MATERIAL/LogoCheck.png"; sourceTree = "<group>"; };
 		B8E4E12E236BE96500450F7A /* Modul.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Modul.storyboard; sourceTree = "<group>"; };
 		B8E4E130236BE9A400450F7A /* CapturaInformacion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CapturaInformacion.storyboard; sourceTree = "<group>"; };
 		B8E4E132236BE9C200450F7A /* ConsultaSolicitudes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsultaSolicitudes.storyboard; sourceTree = "<group>"; };
 		B8E4E134236BE9DA00450F7A /* CapturaImagenes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CapturaImagenes.storyboard; sourceTree = "<group>"; };
-		B8E51B6723839DA700AD5248 /* IconoUsuario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconoUsuario.png; path = "../../../../../Downloads/CHECK - MATERIAL/IconoUsuario.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +121,7 @@
 				B8E4E0F4236BCE7600450F7A /* AppDelegate.swift */,
 				B8E4E0F6236BCE7600450F7A /* SceneDelegate.swift */,
 				B8E4E0F8236BCE7600450F7A /* ViewController.swift */,
+				B842902D23874EBB00641925 /* PersonaViewController.swift */,
 				B8E4E0FA236BCE7600450F7A /* Main.storyboard */,
 				B8E4E0FD236BCE7700450F7A /* Assets.xcassets */,
 				B8E4E0FF236BCE7700450F7A /* LaunchScreen.storyboard */,
@@ -195,9 +192,6 @@
 		B8E4E12B236BE2E100450F7A /* image */ = {
 			isa = PBXGroup;
 			children = (
-				B8E51B6723839DA700AD5248 /* IconoUsuario.png */,
-				B8E4E12C236BE2FE00450F7A /* LogoCheck.png */,
-				B8D3E8CE237BA4D500F70DB7 /* ButtonCheck.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -307,14 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E4E129236BDAE500450F7A /* Login.storyboard in Resources */,
-				B8E4E12D236BE2FE00450F7A /* LogoCheck.png in Resources */,
 				B8E4E12F236BE96500450F7A /* Modul.storyboard in Resources */,
 				B8E4E131236BE9A400450F7A /* CapturaInformacion.storyboard in Resources */,
 				B8E4E101236BCE7700450F7A /* LaunchScreen.storyboard in Resources */,
 				B8E4E0FE236BCE7700450F7A /* Assets.xcassets in Resources */,
-				B8D3E8CF237BA4D600F70DB7 /* ButtonCheck.png in Resources */,
 				B8E4E135236BE9DA00450F7A /* CapturaImagenes.storyboard in Resources */,
-				B8E51B6823839DA700AD5248 /* IconoUsuario.png in Resources */,
 				B8E4E133236BE9C200450F7A /* ConsultaSolicitudes.storyboard in Resources */,
 				B8E4E0FC236BCE7600450F7A /* Main.storyboard in Resources */,
 			);
@@ -342,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E4E0F9236BCE7600450F7A /* ViewController.swift in Sources */,
+				B842902E23874EBB00641925 /* PersonaViewController.swift in Sources */,
 				B8E4E0F5236BCE7600450F7A /* AppDelegate.swift in Sources */,
 				B8E4E0F7236BCE7600450F7A /* SceneDelegate.swift in Sources */,
 			);
